@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — App Campeonato San Marino</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.65; max-width: 46rem;
+         margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #1a1a1a; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #e8e8e8; background: #121212; }
+    a { color: #ff6b6b; } th { background: #1e1e1e; } tr:nth-child(even) td { background: #191919; } }
+  h1 { font-size: 1.6rem; border-bottom: 3px solid #e10600; padding-bottom: .5rem; }
+  h2 { font-size: 1.15rem; margin-top: 2.2rem; }
+  .meta { color: #777; font-size: .9rem; }
+  table { border-collapse: collapse; width: 100%; font-size: .92rem; }
+  th, td { border: 1px solid #999; padding: .45rem .6rem; text-align: left; vertical-align: top; }
+  th { background: #f2f2f2; }
+  .box { border-left: 4px solid #e10600; padding: .6rem 1rem; margin: 1.2rem 0; background: rgba(225,6,0,.06); }
+  footer { margin-top: 3rem; font-size: .85rem; color: #777; border-top: 1px solid #999; padding-top: 1rem; }
+</style>
+</head>
+<body>
+<h1>Política de Privacidade<br><small>App Campeonato San Marino</small></h1>
+<p class="meta"><strong>Versão 1.0</strong> · Vigência: 6 de agosto de 2026 · Histórico de versões nesta página (rodapé)</p>
+
+<h2>1. Quem somos e nossos papéis</h2>
+<ul>
+  <li><strong>Controlador:</strong> San Marino Kart Clube, associação esportiva, CNPJ 15.375.327/0001-15 ("Clube"), Rua Armando Botasso, 1200, Betel, Paulínia/SP, CEP 13148-180 — organizador do Campeonato San Marino de Kart.</li>
+  <li><strong>Operadora:</strong> Naequoris (razão social em atualização; atual Viscosity Software), CNPJ 65.686.747/0001-90, Paulínia/SP — desenvolvedora e titular da propriedade intelectual do aplicativo, que trata dados pessoais em nome do Controlador nos limites de contrato de tratamento de dados.</li>
+  <li>A operação do kartódromo (SMK Ltda) <strong>não participa</strong> do fluxo de dados deste aplicativo.</li>
+  <li><strong>Encarregado pelo tratamento de dados pessoais (DPO):</strong> Hugo Carneiro de Andrade — canal do titular: <a href="mailto:campeonatosanmarino@gmail.com">campeonatosanmarino@gmail.com</a>.</li>
+</ul>
+
+<h2>2. Princípio central: pseudonimização por padrão</h2>
+<div class="box">
+<p>Os resultados esportivos exibidos publicamente no aplicativo (classificações, rankings, histórico de provas) identificam os pilotos <strong>exclusivamente por um alias atribuído pelo sistema</strong> — no formato <strong>"Piloto NNN"</strong>, persistente ao longo da temporada. Não existe apelido escolhido pelo usuário. Nome civil, contatos e demais dados identificadores ficam em área segregada de acesso restrito ("Cofre" — Seção 7) e <strong>não são exibidos ao público</strong>, com uma única exceção: piloto <strong>adulto, com idade verificada</strong>, pode <strong>optar</strong> por exibir o próprio nome (Seção 5).</p>
+</div>
+
+<h2>3. Dados que coletamos, por finalidade</h2>
+<table>
+<tr><th>Finalidade</th><th>Dados</th><th>Observações</th></tr>
+<tr><td>Criação e acesso à conta</td><td>E-mail (login por código de uso único — OTP)</td><td>Não usamos senha; não coletamos dados de redes sociais.</td></tr>
+<tr><td>Inscrição no campeonato e reivindicação de perfil (claim)</td><td>Nome completo, nº de carteirinha CBA, CPF (armazenado apenas como código criptográfico irreversível — HMAC; o CPF em claro não é retido), categoria, nº do kart, equipe, telefone/e-mail, contato de emergência, condição de menoridade</td><td>Alimenta o Cofre; nada disso é público.</td></tr>
+<tr><td>Resultados esportivos</td><td>Tempos, posições, pontuação e classificação vinculados ao alias "Piloto NNN"</td><td>Exibição pública sempre pseudonimizada.</td></tr>
+<tr><td>Segurança de prova (dado de saúde)</td><td>Tipo sanguíneo</td><td>Dado sensível (LGPD, art. 11). Segregado no Cofre, acesso mínimo, consultável somente na operação de prova (briefing/atendimento de emergência). Nunca exibido no app.</td></tr>
+<tr><td>Registro de pagamento de inscrição</td><td>Declaração do piloto de que efetuou pagamento por Pix às contas do campeonato; confirmação pela secretaria</td><td>O app não processa pagamentos nem coleta dados financeiros/cartão.</td></tr>
+<tr><td>Comunicações do Clube (opcional)</td><td>E-mail, quando o titular escolher receber novidades</td><td>Finalidade opcional, ativada apenas por opt-in separado e específico (Seção 4). Nunca para menores; nunca envolve dado sensível; sem compartilhamento com terceiro.</td></tr>
+<tr><td>Auditoria e segurança</td><td>Registros de tentativas de claim e decisões administrativas (autor, data, resultado) em trilha imutável</td><td>Base da rastreabilidade exigida pela legislação.</td></tr>
+</table>
+<p>O aplicativo <strong>não</strong> veicula publicidade, <strong>não</strong> incorpora SDKs de terceiros (analytics, ads, rastreadores), <strong>não</strong> compartilha dados pessoais com terceiros para fins comerciais e <strong>não</strong> envia notificações push (recurso futuro, que só existirá mediante opt-in).</p>
+
+<h2>4. Bases legais (LGPD, arts. 7º e 11)</h2>
+<table>
+<tr><th>Tratamento</th><th>Base legal</th></tr>
+<tr><td>Conta, inscrição, gestão da participação no campeonato</td><td>Execução de contrato / procedimentos preliminares (art. 7º, V) — o regulamento esportivo aceito na inscrição</td></tr>
+<tr><td>Publicação de resultados esportivos pseudonimizados</td><td>Legítimo interesse (art. 7º, IX) — o resultado de competição é a essência do serviço; a pseudonimização é a salvaguarda</td></tr>
+<tr><td>Exibição pública do nome civil de adulto</td><td>Consentimento (art. 7º, I) — opt-in claro e destacado, registrado com data e versão, revogável a qualquer tempo</td></tr>
+<tr><td>Comunicações do Clube</td><td>Consentimento (art. 7º, I) — opt-in separado e específico, revogável a qualquer tempo</td></tr>
+<tr><td>Tipo sanguíneo e contato de emergência</td><td>Proteção da vida e da incolumidade física do titular (art. 11, II, "e")</td></tr>
+<tr><td>Guarda de registros, atendimento a autoridades</td><td>Cumprimento de obrigação legal ou regulatória (art. 7º, II)</td></tr>
+<tr><td>Dados de crianças e adolescentes</td><td>Melhor interesse (art. 14), com consentimento específico e destacado do responsável para os tratamentos que o exigirem — Seção 6</td></tr>
+</table>
+
+<h2>5. Exibição de nome de adulto (opt-in)</h2>
+<p>A exibição do nome civil no lugar do alias "Piloto NNN" é <strong>opcional e desacoplada da reivindicação de perfil (claim)</strong>: reivindicar o perfil serve para o piloto herdar e acompanhar o próprio histórico, e não implica exibir o nome. A exibição do nome é ato separado e adicional, <strong>exclusivo de adultos</strong> e condicionado, cumulativamente, a: (i) verificação de idade por método auditável (casamento com a filiação CBA/FASP, com CPF como segundo fator — sem autodeclaração); (ii) consentimento expresso, claro e destacado no próprio fluxo — nunca escondido no corpo dos termos —, registrado com data e versão. Na ausência de qualquer requisito, o perfil permanece "Piloto NNN", automaticamente. O consentimento é <strong>reversível a qualquer tempo</strong> no app, com retorno imediato ao alias, sem perda do histórico.</p>
+
+<h2>6. Crianças e adolescentes (LGPD, art. 14; Lei 15.211/2025)</h2>
+<ul>
+  <li><strong>Menores são SEMPRE exibidos pelo alias "Piloto NNN".</strong> Não existe opção de exibir nome de menor, nem mediante consentimento.</li>
+  <li><strong>Sem número do kart e sem equipe no rótulo público de menor</strong> — vetores que permitiriam re-identificação, sobretudo em grids pequenos.</li>
+  <li>O responsável legal logado vê o próprio filho destacado em área autenticada; para o público, nenhum menor é individualmente identificado.</li>
+  <li>Nenhuma coleta de dado pessoal de menor diretamente pelo app: dados de inscrição de menor são fornecidos pelo responsável.</li>
+  <li>A reivindicação do perfil de menor só pode ser feita por <strong>responsável legal</strong>, com vínculo comprovado e validado pela secretaria do campeonato. A conta do menor de 16 anos fica vinculada à conta do responsável (Lei 15.211/2025, art. 22).</li>
+  <li>A verificação de idade usa método proporcional e auditável (fonte federativa CBA/FASP), sem autodeclaração, retendo apenas o derivado mínimo — documentos não são retidos.</li>
+  <li><strong>Sem perfilamento, sem publicidade dirigida, sem mecânicas de engajamento compulsivo:</strong> não há recompensas aleatórias, sequências que expiram ou pressão de escassez. Conquistas refletem exclusivamente feitos esportivos reais.</li>
+</ul>
+
+<h2>7. Segurança — como o "Cofre" funciona</h2>
+<ul>
+  <li>Dados identificadores e sensíveis residem em tabela segregada com bloqueio por padrão no nível do banco de dados (RLS <em>deny-by-default</em> + FORCE): perfis públicos e usuários autenticados não têm acesso.</li>
+  <li>A equipe administrativa acessa apenas leituras por funções auditadas; a credencial administrativa do banco nunca é embarcada no aplicativo.</li>
+  <li>O CPF não é armazenado em claro — apenas seu HMAC, com segredo guardado fora do banco.</li>
+  <li>Toda tentativa de claim e decisão administrativa fica em trilha de auditoria imutável (autor, data, resultado).</li>
+  <li>Documentos apresentados para verificação são conferidos e descartados — não são retidos.</li>
+</ul>
+
+<h2>8. Compartilhamento e suboperadores</h2>
+<p>Não compartilhamos dados pessoais com terceiros para fins próprios deles. Suboperadores de infraestrutura:</p>
+<ul>
+  <li><strong>Supabase</strong> (banco de dados Postgres gerenciado), com hospedagem e backups na região AWS São Paulo (sa-east-1). O provedor é sediado no exterior; eventual acesso de suporte configura transferência internacional amparada em cláusulas contratuais padrão (LGPD, arts. 33–36).</li>
+  <li><strong>Resend</strong> (envio do e-mail de código de acesso), com envio configurado na região São Paulo; provedor sediado no exterior, mesma salvaguarda contratual.</li>
+</ul>
+<p>Dados podem ser fornecidos a autoridades públicas quando houver obrigação legal.</p>
+
+<h2>9. Direitos do titular (LGPD, art. 18)</h2>
+<p>O titular (ou seu responsável legal, no caso de menores) pode solicitar: confirmação de tratamento; acesso; correção; anonimização, bloqueio ou eliminação; portabilidade; informação sobre compartilhamentos; revogação de consentimento (inclusive da exibição de nome, com retorno imediato ao pseudônimo); e revisão de decisões automatizadas (não empregamos decisões automatizadas com efeitos jurídicos). Canal: <a href="mailto:campeonatosanmarino@gmail.com">campeonatosanmarino@gmail.com</a> — resposta em até 15 dias. O titular pode ainda peticionar à ANPD.</p>
+
+<h2>10. Retenção</h2>
+<ul>
+  <li><strong>Dados de conta e do Cofre:</strong> enquanto durar o vínculo com o campeonato e por até 5 anos após, para o cumprimento de prazos legais e de defesa.</li>
+  <li><strong>Resultados esportivos pseudonimizados:</strong> integram o histórico permanente da competição.</li>
+  <li><strong>Registros de pagamento declarado:</strong> 5 anos (guarda fiscal).</li>
+  <li><strong>Trilha de auditoria:</strong> 5 anos, para comprovação de conformidade.</li>
+</ul>
+
+<h2>11. Alterações desta política</h2>
+<p>Publicaremos nova versão nesta mesma página, com data e número de versão, e comunicaremos alterações relevantes pelo e-mail da conta. Tratamentos que dependem de consentimento não serão ampliados sem novo consentimento.</p>
+
+<footer>
+<p><strong>Contato do Encarregado (DPO):</strong> Hugo Carneiro de Andrade — campeonatosanmarino@gmail.com<br>
+<strong>Canal de privacidade e suporte:</strong> campeonatosanmarino@gmail.com</p>
+<p>Histórico de versões: v1.0 — 06/08/2026 — publicação inicial.</p>
+<p><a href="termos.html">Termos de Uso</a></p>
+</footer>
+</body>
+</html>
